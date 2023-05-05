@@ -59,7 +59,7 @@ const services = [
   {
     title: "DevOps",
     icon: devops,
-    text: "I have expertise in deploying, and maintaining cloud-based infrastructure using AWS services adn bitbucket pipeines.",
+    text: "I have expertise in deploying, and maintaining cloud-based infrastructure using AWS services and bitbucket pipeines.",
   },
 ];
 
