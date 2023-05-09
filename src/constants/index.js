@@ -23,6 +23,7 @@ import {
   star,
   // projects
   parcade,
+  shoppe,
   DSLmio,
   // services
   frontend,
@@ -59,7 +60,7 @@ const services = [
   {
     title: "DevOps",
     icon: devops,
-    text: "I have expertise in deploying, and maintaining cloud-based infrastructure using AWS services and bitbucket pipeines.",
+    text: "I have expertise in deploying, and maintaining cloud-based infrastructure using AWS services and bitbucket pipelines.",
   },
 ];
 
@@ -150,7 +151,7 @@ const experiences = [
     icon: work,
     iconBg: "#809bce",
     date: "May 2022 - Sept 2022",
-    text: "Experience a wide breadth of software fields by provisioning a kubernetes cluster, developing a full-stack application from scratch, maintaining current applications, and hosting/maintaining various applications on kubernetes.",
+    text: "Experienced a wide breadth of software fields by provisioning a kubernetes cluster, developing a full-stack application from scratch, maintaining current applications, and hosting/maintaining various applications on kubernetes.",
     points: [
       "Front-End (User Experience, UI Design)",
       "Back-End (RESTful APIs, Database Management)",
@@ -208,7 +209,8 @@ const projects = [
       },
     ],
     image: parcade,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/jmutton2/parcade",
+    active_site_link: "",
   },
   {
     name: "Hearing Aid Calibration Test App",
@@ -229,6 +231,30 @@ const projects = [
       },
     ],
     image: DSLmio,
+    source_code_link: "",
+    active_site_link: "",
+  },
+  {
+    name: "Shoppe",
+    description:
+      "A responsive and user-friendly web app based on pre-made designs, which leverages a shoe e-commerce API to fetch and display dynamic data.",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Tailwind",
+        color: "green-text-gradient",
+      },
+      {
+        name: "JavaScript",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: shoppe,
+    source_code_link: "https://github.com/jmutton2/shoppe",
+    active_site_link: "https://shoppe.jacobmutton.tech",
   },
 ];
 

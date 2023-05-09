@@ -30,6 +30,7 @@ import school from "./experience/school.svg";
 import star from "./experience/star.svg";
 
 import parcade from "./parcade.png";
+import shoppe from "./shoppe.png";
 import DSLmio from "./DSLmio.png";
 
 import blob from "./blob.svg";
@@ -63,6 +64,7 @@ export {
   school,
   star,
   parcade,
+  shoppe,
   DSLmio,
   blob,
 };

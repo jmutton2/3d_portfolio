@@ -19,7 +19,6 @@ const App = () => {
           <Hero />
         </div>
         <div className="flex flex-col justify-center items-center">
-          {" "}
           <About />
           <Experience />
           <Tech />
