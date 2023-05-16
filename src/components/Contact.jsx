@@ -118,11 +118,11 @@ const Contact = () => {
         <div className="flex flex-row justify-evenly w-full">
           <div
             id="toast-simple"
-            class=" fixed flex-row bottom-0 flex items-center w-full max-w-xs p-4 space-x-4 text-gray-500 bg-white divide-x divide-gray-200 rounded-lg shadow dark:text-gray-400 dark:divide-gray-700 space-x dark:bg-gray-800"
+            class=" fixed flex-row bottom-5 border border-black flex items-center w-full max-w-xs p-4 space-x-4 text-black divide-x divide-black rounded-lg shadow space-x bg-tertiary"
             role="alert"
           >
             <svg
-              class="w-5 h-5 text-blue-600 dark:text-blue-500"
+              class="w-5 h-5 text-black"
               focusable="false"
               data-prefix="fas"
               data-icon="paper-plane"
